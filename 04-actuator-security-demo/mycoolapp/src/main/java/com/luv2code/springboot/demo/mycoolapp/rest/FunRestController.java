@@ -22,4 +22,8 @@ public class FunRestController {
     public String getDailyFortune() {
         return "<h1>Today is your Lucky Day.</h1>";
     }
+    @GetMapping("welcome")
+    public String welcome(){
+        return "<h1>Welcome to My Application<h1>";
+    }
 }
